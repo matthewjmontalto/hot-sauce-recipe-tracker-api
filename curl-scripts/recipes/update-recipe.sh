@@ -1,8 +1,8 @@
 #!/bin/bash
 
-curl "http://localhost:4741/recipes" \
+curl "http://localhost:4741/recipes/${ID}" \
   --include \
-  --request POST \
+  --request PATCH \
   --header "Content-Type: application/json" \
   --header "Authorization: Token token=${TOKEN}" \
   --data '{
@@ -18,5 +18,4 @@ curl "http://localhost:4741/recipes" \
 
 echo
 
-# NAME='test name' DATE='2019/09/03' RATING='' FERMETED=true INGREDIENTS='list of ingredients' NOTES='author notes'
-# NAME='test name2' DATE='2019/09/04' RATING='5' FERMETED=true INGREDIENTS='list of ingredients' NOTES='author notes'
+# NAME='new test name' DATE='2019/09/03' RATING='' FERMETED=true INGREDIENTS='list of ingredients' NOTES='author notes'
