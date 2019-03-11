@@ -18,5 +18,5 @@ curl "http://localhost:4741/recipes" \
 
 echo
 
-# NAME='test name' DATE='2019/09/03' RATING='' FERMETED=true INGREDIENTS='list of ingredients' NOTES='author notes'
-# NAME='test name2' DATE='2019/09/04' RATING='5' FERMETED=true INGREDIENTS='list of ingredients' NOTES='author notes'
+# NAME='test name' DATE='2019/09/03' RATING='' FERMENTED=true INGREDIENTS='list of ingredients' NOTES='author notes'
+# NAME='test name2' DATE='2019/09/04' RATING='5' FERMENTED=true INGREDIENTS='list of ingredients' NOTES='author notes'
