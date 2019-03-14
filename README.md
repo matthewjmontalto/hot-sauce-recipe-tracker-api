@@ -3,6 +3,8 @@
 # Hot Sauce Recipe Tracker
 
 [Hot Sauce Recipe Tracker Client](https://github.com/matthewjmontalto/hot-sauce-recipe-tracker-client)
+[Deployed Client](https://matthewjmontalto.github.io/hot-sauce-recipe-tracker-client/)
+[Deployed Heroku Application](https://hot-sauce-recipe-tracker.herokuapp.com/)
 
 ## Thank You!
 
@@ -22,29 +24,15 @@ risk of affecting another user's recipes.
 
 ### API
 - Ruby on rails
+- Postgresql
 
 ### Front-end
 - HTML5 & SCSS
 - Bootsrap
 - javaScript
+- jQuery
 - Handlbars.js
 - Ajax
-
-### User Stories
-- As a user, I would like to have an account
-- As a user, I would like to track individula recipes
-- As a user, I would like to track the ingredients and ingredient amounts that
-  belong to each recipes
-- As a user, I would like to be able to rate the success of the recipe on a scale
-  of 1 - 5
-- As a user, I would like to rate spiciness on a scale of 1 -3
-- As a user, I would like to track the dates each recipe is is created
-
-#### Stretch
-- As a user, I would like calculate brine % by weight
-- As a user, I would like to track ferment time as countdown
-- As a user, I would like to store a pantry of ingredients to be added to recipes
-
 
 ## Unsolved problems
 - databse currently does not support the following data points:
@@ -54,3 +42,15 @@ risk of affecting another user's recipes.
 ## ERD
 
 ||Users|| -|---< ||Recipes||
+
+## Development Process
+The approach I adopted to developing my full-stack application began with
+the back-end API. By building the back-end database, I had a better foundation
+upon which I could develop the client. Authorization was initial set to open
+read controller for testing purposes and switched to protected controller for
+MVP.
+
+The client side came after the API was solid. I began by testing routes with
+curl scripts, then with simple layout html forms. Once everything was behaving
+as expected, I moved on to building a more robust layout. Styling was left to
+the very end of the process.
