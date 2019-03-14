@@ -30,6 +30,21 @@ risk of affecting another user's recipes.
 - Handlbars.js
 - Ajax
 
+### User Stories
+- As a user, I would like to have an account
+- As a user, I would like to track individula recipes
+- As a user, I would like to track the ingredients and ingredient amounts that
+  belong to each recipes
+- As a user, I would like to be able to rate the success of the recipe on a scale
+  of 1 - 5
+- As a user, I would like to rate spiciness on a scale of 1 -3
+- As a user, I would like to track the dates each recipe is is created
+
+#### Stretch
+- As a user, I would like calculate brine % by weight
+- As a user, I would like to track ferment time as countdown
+- As a user, I would like to store a pantry of ingredients to be added to recipes
+
 
 ## Unsolved problems
 - databse currently does not support the following data points:
